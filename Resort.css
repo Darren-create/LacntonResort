@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+   
+
+    .top-bar {
+        font-family: "Poppins", sans-serif;
+    font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+        font-size: 14px;
+        background: transparent;
+    }
+
+    .top-bar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+
+    .main-header {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        padding: 50px 0 30px;
+        background: transparent;
+    }
+
+    .main-header h1 {
+        font-family: "Playfair Display SC", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 48px;
+        margin: 0;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+
+    .main-header p {
+        margin: 5px 0 0;
+        font-size: 12px;
+        color: #ddd;
+        letter-spacing: 1px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        background: rgba(0, 0, 0, 0.3);
+        gap: 25px;
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .navbar a {
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px 10px;
+        transition: all 0.3s;
+    }
+
+    .navbar a:hover {
+        color: #85816e;
+    }
+
+    .book-now {
+        background: #ffdead;
+        color: white !important;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .book-now:hover{
+        background: #bb9a69;
+    }
+    .container {
+        display: flex;
+        gap: 300px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.left-text {
+  color: white;
+  max-width: 400px;
+}
+.left-text h1 {
+  font-size: 90px;
+  margin: 0;
+  font-weight: 900;
+  line-height: 1.2;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+.left-text p {
+    font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.booking-box {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px 90px 30px 90px;
+    border-radius: 10px;
+    width: 260px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.booking-box h3 {
+    font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: #faf3f3;
+}
+.booking-box small {
+  color: #f3f0f0;
+  display: block;
+  margin-bottom: 20px;
+}
+.booking-box label {
+    
+    color: #f3f0f0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.booking-box input {
+    font-family: "Cormorant Garamond", serif;
+    font-size: large;
+    font-weight: 800;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.booking-box button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.booking-box button:hover{
+    background-color: rgb(51, 51, 51);
+
+}
+
+.resort-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+  gap: 120px;
+  background-color: #fefefe;
+}
+
+.resort-left {
+  position: relative;
+  width: 500px;
+  height: 400px;
+}
+
+.resort-left img {
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.img-back {
+  top: 0;
+  left: 50px;
+  width: 200px;
+  z-index: 1;
+}
+
+.img-middle {
+  top: 20px;
+  left: 150px;
+  width: 250px;
+  z-index: 2;
+}
+
+.img-front {
+  top: 160px;
+  left: 0;
+  width: 300px;
+  z-index: 3;
+}
+
+.resort-right {
+  max-width: 450px;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.resort-right small {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.resort-right h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+
+.signature {
+  width: 120px;
+  margin: 10px 0;
+}
+
+.resort-right p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.about-btn {
+  padding: 10px 24px;
+  background-color: #7fb6ca;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #5c9db2;
+}
